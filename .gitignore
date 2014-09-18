@@ -20,7 +20,7 @@
 *.out
 *.app
 
-xcuserdata
+*.xcuserdata
 project.xcworkspace
 
 *.launch
