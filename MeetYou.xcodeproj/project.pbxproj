@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965A17D319CA6CAA00262F0A /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B9F8C19C9998D000989B2 /* libWeiboSDK.a */; };
 		9AA47C75A2BF410DAA621961 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C93A32F50F4B66A32C70EE /* libPods.a */; };
 		CD0CF8AA196436D7007BEB72 /* LeftViewControllerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CF8A8196436D7007BEB72 /* LeftViewControllerTableViewCell.m */; };
 		CD0CF8AB196436D7007BEB72 /* LeftViewControllerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD0CF8A9196436D7007BEB72 /* LeftViewControllerTableViewCell.xib */; };
@@ -33,7 +34,6 @@
 		CD842D0619836AD00070F17C /* 红色@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD842D0319836AD00070F17C /* 红色@2x.png */; };
 		CD842D0719836AD00070F17C /* 蓝色@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD842D0419836AD00070F17C /* 蓝色@2x.png */; };
 		CD842D0819836AD00070F17C /* 圆低@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD842D0519836AD00070F17C /* 圆低@2x.png */; };
-		CD8B9F8D19C9998D000989B2 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B9F8C19C9998D000989B2 /* libWeiboSDK.a */; };
 		CDA1B53C1931A18D0015D8D6 /* MTNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1B5391931A18D0015D8D6 /* MTNetWork.m */; };
 		CDA1B53D1931A18D0015D8D6 /* MTRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1B53B1931A18D0015D8D6 /* MTRequestSerializer.m */; };
 		CDBA9B661930835D006F292F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBA9B651930835D006F292F /* Foundation.framework */; };
@@ -333,7 +333,7 @@
 				CD3951281931B92600E4CEA5 /* CFNetwork.framework in Frameworks */,
 				CDBA9C1219309096006F292F /* ImageIO.framework in Frameworks */,
 				CDBA9B681930835D006F292F /* CoreGraphics.framework in Frameworks */,
-				CD8B9F8D19C9998D000989B2 /* libWeiboSDK.a in Frameworks */,
+				965A17D319CA6CAA00262F0A /* libWeiboSDK.a in Frameworks */,
 				CDBA9B6C1930835D006F292F /* CoreData.framework in Frameworks */,
 				CDBA9B6A1930835D006F292F /* UIKit.framework in Frameworks */,
 				CDBA9B661930835D006F292F /* Foundation.framework in Frameworks */,
