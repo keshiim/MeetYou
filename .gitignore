@@ -12,21 +12,27 @@
 # Compiled Static libraries
 *.lai
 *.la
-#*.a
+# *.a
 *.lib
 
 # Executables
 *.exe
 *.out
-*.app
+# *.app
+*.class
+*.o
 
-*.xcuserdatad
-project.xcworkspace
-
-*.launch
-.cproject
-.buildpath
-
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+.gradle/
+build/
+bin/
+gen/
+local.properties
+*.pydevproject
 #.project
 .metadata
 bin/**
@@ -38,8 +44,15 @@ tmp/**/*
 .settings/
 .loadpath
 
-*~
-*.lock
-*.DS_Store
-*.swp
-*.out
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+ *.pbxuser
+*.perspective
+*.perspectivev3
+*.mode2v3
+*.mode1v3
+*~.nib
+xcuserdata
+project.xcworkspace
